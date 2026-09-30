@@ -1,0 +1,47 @@
+[
+  {
+    "interview_id": "INT-01",
+    "speaker": "Tara (Village Elder)",
+    "topic": "Family and Kinship Titles",
+    "audio_quality": "high",
+    "reliability": 0.94,
+    "transcript_excerpt": "When the boys come home from the sea, we greet them with 'aayo-re'. The younger one will never call his elder brother by his first name; he calls him 'toran' or 'toran-ma' if he wants to show true respect.",
+    "key_lexemes": ["aayo-re", "toran", "toran-ma"]
+  },
+  {
+    "interview_id": "INT-02",
+    "speaker": "Rishi (Fisherman)",
+    "topic": "Daily Work and Water Scarcity",
+    "audio_quality": "medium",
+    "reliability": 0.92,
+    "transcript_excerpt": "Dara-la chora-te? No fresh water today. We have to haul the boat (nau-la) before sunset. If the wind (bayu) gets cold, staying on the water is dangerous.",
+    "key_lexemes": ["dara", "chora-te", "nau", "bayu"]
+  },
+  {
+    "interview_id": "INT-03",
+    "speaker": "Dev (Trade merchant)",
+    "topic": "Bazaar Negotiations & Slang",
+    "audio_quality": "low",
+    "reliability": 0.78,
+    "transcript_excerpt": "In the town market (baza), you meet people from everywhere. Some outsiders use weird words like 'koba' to refer to a rough guy or an estranged elder brother, but our mothers would slap our mouths for using it at home.",
+    "key_lexemes": ["baza", "koba", "toran"]
+  },
+  {
+    "interview_id": "INT-04",
+    "speaker": "Ananya (Student / Code-switcher)",
+    "topic": "Youth Culture & Code-switching",
+    "audio_quality": "high",
+    "reliability": 0.88,
+    "transcript_excerpt": "We code-switch constantly. When we talk with friends, we say 'nira' instead of 'ni-'. Like: 'Koa nira ja-te' instead of 'Koa ni-ja-te'. But with our grandparents, we strictly keep SOV and proper suffixes.",
+    "key_lexemes": ["nira", "ni-", "SOV"]
+  },
+  {
+    "interview_id": "INT-05",
+    "speaker": "Kiran (Mountain Guide)",
+    "topic": "Safety, Paths, and Bridges",
+    "audio_quality": "medium",
+    "reliability": 0.90,
+    "transcript_excerpt": "The high bridge (setu) was broken (tutta). We took the secret path (gupt rasta). Sula boro to anyone traveling before dawn.",
+    "key_lexemes": ["setu", "tutta", "gupt", "rasta", "sula boro"]
+  }
+]

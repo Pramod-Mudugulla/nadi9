@@ -1,0 +1,150 @@
+{
+  "episode_id": "EP01",
+  "title": "Return to the Ridge",
+  "language": "en",
+  "target_dialect": "nadi-9",
+  "scenes": [
+    {
+      "scene_id": "SCENE-01",
+      "name": "Courtyard Dawn",
+      "description": "Maya greets her father as mist rises over the hills."
+    },
+    {
+      "scene_id": "SCENE-02",
+      "name": "The Well",
+      "description": "Rishi and Arjun inspect the water supply after the dry spell."
+    },
+    {
+      "scene_id": "SCENE-03",
+      "name": "The Doorstep Reunion",
+      "description": "Ravi meets his estranged brother who has just returned from exile."
+    },
+    {
+      "scene_id": "SCENE-04",
+      "name": "The Old Machine Workshop",
+      "description": "Arjun investigates an unfamiliar machine from an overseas vessel."
+    }
+  ],
+  "lines": [
+    {
+      "subtitle_id": "S001",
+      "scene_id": "SCENE-01",
+      "speaker": "Maya",
+      "listener": "Father",
+      "time_in": "00:00:02,000",
+      "time_out": "00:00:05,000",
+      "source_text": "Good morning, elder father.",
+      "notes": "Respectful greeting, generational deference."
+    },
+    {
+      "subtitle_id": "S002",
+      "scene_id": "SCENE-01",
+      "speaker": "Father",
+      "listener": "Maya",
+      "time_in": "00:00:06,000",
+      "time_out": "00:00:09,000",
+      "source_text": "Peace to your house, child.",
+      "notes": "Paternal blessing."
+    },
+    {
+      "subtitle_id": "S003",
+      "scene_id": "SCENE-01",
+      "speaker": "Maya",
+      "listener": "Father",
+      "time_in": "00:00:10,000",
+      "time_out": "00:00:13,000",
+      "source_text": "I see the mountain clearly today.",
+      "notes": "Declarative observation, SOV expected."
+    },
+    {
+      "subtitle_id": "S004",
+      "scene_id": "SCENE-02",
+      "speaker": "Rishi",
+      "listener": "Arjun",
+      "time_in": "00:00:15,000",
+      "time_out": "00:00:18,500",
+      "source_text": "They do not drink the water.",
+      "notes": "Testing negation and water lexicon (dara vs poisoned baxu)."
+    },
+    {
+      "subtitle_id": "S005",
+      "scene_id": "SCENE-02",
+      "speaker": "Arjun",
+      "listener": "Rishi",
+      "time_in": "00:00:19,000",
+      "time_out": "00:00:22,000",
+      "source_text": "The wind is cold tonight.",
+      "notes": "Descriptive climate statement."
+    },
+    {
+      "subtitle_id": "S006",
+      "scene_id": "SCENE-02",
+      "speaker": "Rishi",
+      "listener": "Arjun",
+      "time_in": "00:00:23,000",
+      "time_out": "00:00:26,500",
+      "source_text": "The bridge is broken near the ridge.",
+      "notes": "Path obstruction."
+    },
+    {
+      "subtitle_id": "S007",
+      "scene_id": "SCENE-02",
+      "speaker": "Arjun",
+      "listener": "Rishi",
+      "time_in": "00:00:27,500",
+      "time_out": "00:00:30,500",
+      "source_text": "Show me the secret path.",
+      "notes": "Imperative instruction to guide."
+    },
+    {
+      "subtitle_id": "S008",
+      "scene_id": "SCENE-04",
+      "speaker": "Arjun",
+      "listener": "Mechanic",
+      "time_in": "00:00:32,000",
+      "time_out": "00:00:36,000",
+      "source_text": "The pneumatic gearbox began spinning rapidly.",
+      "notes": "UNSUPPORTED TERMS: 'pneumatic gearbox' has zero evidence in Nadi-9. Agent must abstain!"
+    },
+    {
+      "subtitle_id": "S009",
+      "scene_id": "SCENE-03",
+      "speaker": "Ravi",
+      "listener": "Neighbor",
+      "time_in": "00:00:38,000",
+      "time_out": "00:00:41,000",
+      "source_text": "We will not forget this kindness.",
+      "notes": "Formal gratitude."
+    },
+    {
+      "subtitle_id": "S010",
+      "scene_id": "SCENE-03",
+      "speaker": "Neighbor",
+      "listener": "Ravi",
+      "time_in": "00:00:42,000",
+      "time_out": "00:00:45,000",
+      "source_text": "Do not speak loudly.",
+      "notes": "Warning at doorway."
+    },
+    {
+      "subtitle_id": "S011",
+      "scene_id": "SCENE-03",
+      "speaker": "Ravi",
+      "listener": "Elder Brother",
+      "time_in": "00:00:47,000",
+      "time_out": "00:00:50,500",
+      "source_text": "Welcome home, traveler.",
+      "notes": "Greeting nuance: tests authentic 'aayo-re' vs formal 'swagatam'."
+    },
+    {
+      "subtitle_id": "S014",
+      "scene_id": "SCENE-03",
+      "speaker": "Ravi",
+      "listener": "Elder Brother",
+      "time_in": "00:00:52,000",
+      "time_out": "00:00:56,000",
+      "source_text": "You came back, elder brother?",
+      "notes": "KEY TEST LINE: Kinship conflict (koba vs toran vs toran-ya). Requires human review."
+    }
+  ]
+}

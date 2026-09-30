@@ -1,0 +1,182 @@
+[
+  {
+    "example_id": "E01",
+    "source_text": "Good morning, elder father.",
+    "nadi_9_text": "Sula boro, aba-ma.",
+    "speaker": "Maya",
+    "scene_context": "Morning courtyard, respectful greeting to house elder.",
+    "reliability": 0.95,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E02",
+    "source_text": "I see the mountain.",
+    "nadi_9_text": "Koa giri-la doti-te.",
+    "speaker": "Arjun",
+    "scene_context": "Traveling by hill path, simple declarative statement.",
+    "reliability": 0.95,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E03",
+    "source_text": "They do not drink the water.",
+    "nadi_9_text": "Te dara-la ni-chora-te.",
+    "speaker": "Maya",
+    "scene_context": "Discussion around well purity.",
+    "reliability": 0.95,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E04",
+    "source_text": "We will bring the boat tomorrow.",
+    "nadi_9_text": "Nu moran nau-la zhe-ren.",
+    "speaker": "Fisherman",
+    "scene_context": "Shoreline planning.",
+    "reliability": 0.90,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E05",
+    "source_text": "The wind is cold tonight.",
+    "nadi_9_text": "Nokta bayu sidi esa.",
+    "speaker": "Elderly Woman",
+    "scene_context": "Hearth fire discussion.",
+    "reliability": 0.92,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E06",
+    "source_text": "Where is the market?",
+    "nadi_9_text": "Baza kuva esa?",
+    "speaker": "Traveler",
+    "scene_context": "Street inquiry.",
+    "reliability": 0.92,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E07",
+    "source_text": "You came back, elder brother?",
+    "nadi_9_text": "Toran-ma, fala-zho-ka?",
+    "speaker": "Ravi",
+    "scene_context": "Doorway meeting after long absence.",
+    "reliability": 0.94,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E08",
+    "source_text": "I do not have silver.",
+    "nadi_9_text": "Koa rupi-la ni-dara-te.",
+    "speaker": "Trader",
+    "scene_context": "Bargaining at bazaar.",
+    "reliability": 0.90,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E09",
+    "source_text": "Peace to your house.",
+    "nadi_9_text": "Shanti tuya griha-la.",
+    "speaker": "Priest",
+    "scene_context": "Blessing upon arrival.",
+    "reliability": 0.95,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E10",
+    "source_text": "Three children ran quickly.",
+    "nadi_9_text": "Tria balok jalo duva-ka.",
+    "speaker": "Teacher",
+    "scene_context": "Observing schoolyard.",
+    "reliability": 0.92,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E11",
+    "source_text": "Do not speak loudly.",
+    "nadi_9_text": "Buland ni-basha-te.",
+    "speaker": "Maya",
+    "scene_context": "Secret discussion at midnight.",
+    "reliability": 0.90,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E12",
+    "source_text": "The harvest was good this year.",
+    "nadi_9_text": "Ye saal fasal boro tha-ka.",
+    "speaker": "Farmer",
+    "scene_context": "Harvest festival discussion.",
+    "reliability": 0.93,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E13",
+    "source_text": "She bought two fish.",
+    "nadi_9_text": "Iya dura mina-la le-ka.",
+    "speaker": "Market Vendor",
+    "scene_context": "Daily accounting.",
+    "reliability": 0.92,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E14",
+    "source_text": "Listen to the elder sister.",
+    "nadi_9_text": "Sarina-ma-la suna-te.",
+    "speaker": "Mother",
+    "scene_context": "Parental instruction to younger brother.",
+    "reliability": 0.94,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E15",
+    "source_text": "The bridge is broken.",
+    "nadi_9_text": "Setu tutta esa.",
+    "speaker": "Scout",
+    "scene_context": "Reporting path blockage.",
+    "reliability": 0.91,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E16",
+    "source_text": "We will not forget this kindness.",
+    "nadi_9_text": "Nu ye krupa-la ni-bisra-ren.",
+    "speaker": "Village Elder",
+    "scene_context": "Formal gratitude at farewell.",
+    "reliability": 0.95,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E17",
+    "source_text": "Show me the secret path.",
+    "nadi_9_text": "Koa-la gupt rasta dekha-te.",
+    "speaker": "Arjun",
+    "scene_context": "Guide requested for mountain trail.",
+    "reliability": 0.90,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E18",
+    "source_text": "The fire burns bright.",
+    "nadi_9_text": "Agni ujwal jwala-te.",
+    "speaker": "Watchman",
+    "scene_context": "Night vigil atop watchtower.",
+    "reliability": 0.92,
+    "provenance": "field_recordings_v1"
+  },
+  {
+    "example_id": "E19",
+    "source_text": "My elder brother is coming.",
+    "nadi_9_text": "Moya koba fala-te.",
+    "speaker": "Estranged Cousin",
+    "scene_context": "Vendor pilot note (disputed: uses archaic/derogatory 'koba' instead of 'toran').",
+    "reliability": 0.65,
+    "provenance": "early_vendor_draft"
+  },
+  {
+    "example_id": "E20",
+    "source_text": "The guard saw the stranger.",
+    "nadi_9_text": "Pahra doti-ka anjan manush-la.",
+    "speaker": "Foreign Trader",
+    "scene_context": "Port pilot note (disputed: SVO inverted order contrary to standard SOV).",
+    "reliability": 0.60,
+    "provenance": "early_vendor_draft"
+  }
+]

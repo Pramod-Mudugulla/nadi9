@@ -1,0 +1,34 @@
+[
+  {
+    "subtitle_id": "S008",
+    "source_text": "The pneumatic gearbox began spinning rapidly.",
+    "nadi_9_text": "[INSUFFICIENT_EVIDENCE: unsupported mechanical terminology]",
+    "confidence": 0.15,
+    "decision": "HUMAN_REVIEW",
+    "evidence": [],
+    "assumptions": [
+      "Modern trade mechanism not present in local lexicon"
+    ],
+    "conflicts": [],
+    "review_question": "Does a loanword or descriptive compounding exist for 'pneumatic gearbox'?"
+  },
+  {
+    "subtitle_id": "S014",
+    "source_text": "You came back, elder brother?",
+    "nadi_9_text": "Toran, fala-zho-ka?",
+    "confidence": 0.72,
+    "decision": "HUMAN_REVIEW",
+    "evidence": [
+      "example:E07",
+      "grammar:respect-2",
+      "dict_b:term-19"
+    ],
+    "assumptions": [
+      "speaker addresses an older sibling"
+    ],
+    "conflicts": [
+      "dictionary:A:term-44 vs dictionary:B:term-19"
+    ],
+    "review_question": "Which kinship form applies after reconciliation?"
+  }
+]

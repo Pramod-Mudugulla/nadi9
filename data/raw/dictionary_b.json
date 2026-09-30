@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "source_id": "dictionary_b",
+    "name": "Community Linguist Field Glossary",
+    "compiler": "Linguist Dr. Alok Sen & Community Elders",
+    "date": "2024-06-10",
+    "reliability_score": 0.92,
+    "notes": "Verified against 45 hours of recorded village storytelling."
+  },
+  "entries": [
+    {"term_id": "B:term-01", "source_term": "water", "nadi_9_term": "dara", "pos": "noun", "notes": "Living term in all recorded native dialogue."},
+    {"term_id": "B:term-02", "source_term": "drink", "nadi_9_term": "chora", "pos": "verb"},
+    {"term_id": "B:term-03", "source_term": "see", "nadi_9_term": "doti", "pos": "verb"},
+    {"term_id": "B:term-04", "source_term": "come", "nadi_9_term": "fala", "pos": "verb"},
+    {"term_id": "B:term-05", "source_term": "return", "nadi_9_term": "fala-zho", "pos": "verb"},
+    {"term_id": "B:term-06", "source_term": "house", "nadi_9_term": "griha", "pos": "noun"},
+    {"term_id": "B:term-07", "source_term": "kindness", "nadi_9_term": "krupa", "pos": "noun"},
+    {"term_id": "B:term-08", "source_term": "secret", "nadi_9_term": "gupt", "pos": "adj"},
+    {"term_id": "B:term-09", "source_term": "path", "nadi_9_term": "rasta", "pos": "noun"},
+    {"term_id": "B:term-10", "source_term": "listen", "nadi_9_term": "suna", "pos": "verb"},
+    {"term_id": "B:term-11", "source_term": "father", "nadi_9_term": "aba", "pos": "noun"},
+    {"term_id": "B:term-12", "source_term": "sister", "nadi_9_term": "sarina", "pos": "noun"},
+    {"term_id": "B:term-13", "source_term": "night", "nadi_9_term": "nokta", "pos": "noun"},
+    {"term_id": "B:term-14", "source_term": "wind", "nadi_9_term": "bayu", "pos": "noun"},
+    {"term_id": "B:term-15", "source_term": "cold", "nadi_9_term": "sidi", "pos": "adj"},
+    {"term_id": "B:term-16", "source_term": "run", "nadi_9_term": "duva", "pos": "verb"},
+    {"term_id": "B:term-17", "source_term": "peace", "nadi_9_term": "shanti", "pos": "noun"},
+    {"term_id": "B:term-18", "source_term": "welcome", "nadi_9_term": "aayo-re", "pos": "greeting", "notes": "Warm familial welcome greeting."},
+    {"term_id": "B:term-19", "source_term": "elder brother", "nadi_9_term": "toran", "pos": "noun", "honorific": "toran-ma / toran-ya", "notes": "True kinship term. 'koba' is rejected as insulting slang."}
+  ]
+}

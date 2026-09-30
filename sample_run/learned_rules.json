@@ -1,0 +1,100 @@
+{
+  "grammar:word_order-1": {
+    "rule_id": "grammar:word_order-1",
+    "category": "word_order",
+    "name": "Canonical SOV Word Order",
+    "pattern_rule": "Subject + Object[-la] + Verb[Tense]",
+    "description": "Standard declarative sentences place the object before the verb, tagged with '-la'.",
+    "supporting_evidence": [
+      "example:E02",
+      "example:E03",
+      "example:E04",
+      "example:E08",
+      "example:E10",
+      "example:E13",
+      "example:E16",
+      "grammar:section-1",
+      "expert:EXP-02"
+    ],
+    "counterexamples": [
+      "example:E20"
+    ],
+    "confidence": 0.7,
+    "status": "TESTED",
+    "rationale": "Overwhelmingly supported across 9 examples; E20 counterexample reflects vendor drafting error."
+  },
+  "grammar:negation-1": {
+    "rule_id": "grammar:negation-1",
+    "category": "negation",
+    "name": "Preverbal Prefix Negation",
+    "pattern_rule": "ni-[VerbStem]",
+    "description": "Negation attaches as prefix 'ni-' directly to the verb stem. Double negation forbidden.",
+    "supporting_evidence": [
+      "example:E03",
+      "example:E08",
+      "example:E11",
+      "example:E16",
+      "grammar:section-3",
+      "expert:EXP-03"
+    ],
+    "counterexamples": [],
+    "confidence": 0.95,
+    "status": "TESTED",
+    "rationale": "100% agreement across approved examples. Colloquial 'nira' noted in INT-04 for casual speech."
+  },
+  "grammar:tense-past": {
+    "rule_id": "grammar:tense-past",
+    "category": "tense",
+    "name": "Past Completed Aspect",
+    "pattern_rule": "VerbRoot + -ka",
+    "description": "Suffix '-ka' indicates past completed action.",
+    "supporting_evidence": [
+      "example:E07",
+      "example:E10",
+      "example:E12",
+      "example:E13",
+      "grammar:section-2"
+    ],
+    "counterexamples": [],
+    "confidence": 0.95,
+    "status": "TESTED",
+    "rationale": "Consistent past tense marker."
+  },
+  "grammar:respect-1": {
+    "rule_id": "grammar:respect-1",
+    "category": "kinship_honorific",
+    "name": "Generational Deference Suffix",
+    "pattern_rule": "KinshipNoun + -ma",
+    "description": "Attach '-ma' to parents, elder siblings, or community authorities.",
+    "supporting_evidence": [
+      "example:E01",
+      "example:E07",
+      "example:E14",
+      "interview:INT-01",
+      "grammar:section-4"
+    ],
+    "counterexamples": [
+      "example:E19"
+    ],
+    "confidence": 0.7,
+    "status": "TESTED",
+    "rationale": "E19 counterexample flagged as vendor draft with derogatory kinship marker."
+  },
+  "grammar:respect-2": {
+    "rule_id": "grammar:respect-2",
+    "category": "kinship_honorific",
+    "name": "Reconciliation Kinship Marker",
+    "pattern_rule": "elder brother [reconciliation] -> toran-ya vs toran-ma",
+    "description": "Differentiates standard brotherly address from formal reconciliation honorific.",
+    "supporting_evidence": [
+      "dict_b:term-19",
+      "expert:EXP-01"
+    ],
+    "counterexamples": [
+      "dict_a:term-44"
+    ],
+    "confidence": 0.45,
+    "status": "NEEDS_REVIEW",
+    "rationale": "Ambiguity remains between familial 'toran-ma' and reconciliation-specific 'toran-ya'."
+  }
+}

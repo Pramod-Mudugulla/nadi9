@@ -1,0 +1,26 @@
+[
+  {
+    "expert_id": "EXP-01",
+    "name": "Dr. Meera Patel (Sociolinguistics)",
+    "date": "2024-07-02",
+    "reliability": 0.93,
+    "topic": "Kinship and Reconciliation Honorifics",
+    "note": "When family members reconcile after conflict or long absence, honorific shifts from casual 'toran' to 'toran-ya' or 'toran-ma'. Avoid 'koba' entirely; it conveys contempt or disowning. S014 represents a reconciliation moment."
+  },
+  {
+    "expert_id": "EXP-02",
+    "name": "Prof. Julian Vance (Typology)",
+    "date": "2024-07-15",
+    "reliability": 0.90,
+    "topic": "Syntactic SOV Constraints and Lexicon Authenticity",
+    "note": "SOV word order is structurally fixed for declarative clauses. Any SVO instance in vendor drafts represents translation leakage from English. Also, 'baxu' in Dictionary A is a ghost word or fabricated trap; 'dara' is supported by all 5 oral interviews."
+  },
+  {
+    "expert_id": "EXP-03",
+    "name": "Elder Kavi Nair (Community Consultant)",
+    "date": "2024-08-01",
+    "reliability": 0.88,
+    "topic": "Greeting Nuances and Colloquial Negation",
+    "note": "Viewers hated 'swagatam' in the pilot—it sounded like a formal state broadcast. Native speakers say 'aayo-re'. For negation, young people sometimes say 'nira' before the verb, but elders always prefix 'ni-' onto the verb stem."
+  }
+]

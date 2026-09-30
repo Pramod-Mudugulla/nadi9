@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "source_id": "dictionary_a",
+    "name": "Vendor Broad Lexicon v0.9",
+    "compiler": "TransGlobal Media Corp",
+    "date": "2024-01-15",
+    "reliability_score": 0.65,
+    "notes": "Large scope but automated harvest with known anomalies and archaic registers."
+  },
+  "entries": [
+    {"term_id": "A:term-01", "source_term": "see", "nadi_9_term": "doti", "pos": "verb", "notes": "root: doti-te"},
+    {"term_id": "A:term-02", "source_term": "come", "nadi_9_term": "fala", "pos": "verb", "notes": "past: fala-ka"},
+    {"term_id": "A:term-03", "source_term": "mountain", "nadi_9_term": "giri", "pos": "noun"},
+    {"term_id": "A:term-04", "source_term": "good", "nadi_9_term": "boro", "pos": "adj"},
+    {"term_id": "A:term-05", "source_term": "morning", "nadi_9_term": "sula", "pos": "noun"},
+    {"term_id": "A:term-06", "source_term": "father", "nadi_9_term": "aba", "pos": "noun"},
+    {"term_id": "A:term-07", "source_term": "sister", "nadi_9_term": "sarina", "pos": "noun"},
+    {"term_id": "A:term-08", "source_term": "speak", "nadi_9_term": "basha", "pos": "verb"},
+    {"term_id": "A:term-09", "source_term": "loud", "nadi_9_term": "buland", "pos": "adv"},
+    {"term_id": "A:term-10", "source_term": "boat", "nadi_9_term": "nau", "pos": "noun"},
+    {"term_id": "A:term-11", "source_term": "fire", "nadi_9_term": "agni", "pos": "noun"},
+    {"term_id": "A:term-12", "source_term": "bright", "nadi_9_term": "ujwal", "pos": "adj"},
+    {"term_id": "A:term-13", "source_term": "market", "nadi_9_term": "baza", "pos": "noun"},
+    {"term_id": "A:term-14", "source_term": "bridge", "nadi_9_term": "setu", "pos": "noun"},
+    {"term_id": "A:term-15", "source_term": "broken", "nadi_9_term": "tutta", "pos": "adj"},
+    {"term_id": "A:term-16", "source_term": "two", "nadi_9_term": "dura", "pos": "num"},
+    {"term_id": "A:term-17", "source_term": "three", "nadi_9_term": "tria", "pos": "num"},
+    {"term_id": "A:term-18", "source_term": "peace", "nadi_9_term": "shanti", "pos": "noun"},
+    {"term_id": "A:term-19", "source_term": "silver", "nadi_9_term": "rupi", "pos": "noun"},
+    {"term_id": "A:term-20", "source_term": "return", "nadi_9_term": "fala-zho", "pos": "verb"},
+    {"term_id": "A:term-44", "source_term": "elder brother", "nadi_9_term": "koba", "pos": "noun", "notes": "Vendor generic sibling/elder tag. Disputed by native speakers."},
+    {"term_id": "A:term-88", "source_term": "welcome", "nadi_9_term": "swagatam", "pos": "greeting", "notes": "Literary register borrowed from high language."},
+    {"term_id": "A:term-99", "source_term": "water", "nadi_9_term": "baxu", "pos": "noun", "notes": "[POISONED ENTRY] Fabricated word inserted by rival contractor. Does not exist in oral speech."}
+  ]
+}
