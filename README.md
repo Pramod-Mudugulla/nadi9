@@ -78,7 +78,7 @@ When translating a dialect that exists nowhere on the internet, an AI model cann
 
 ```bash
 # 1. Clone repository and navigate to directory
-git clone <repo-url>
+git clone https://github.com/Pramod-Mudugulla/nadi9.git
 cd nadi9-agent
 
 # 2. Install dependencies
@@ -156,34 +156,7 @@ If you're explaining this architecture in an interview, here is the clear 5-step
 
 ---
 
-## 4. Key Interview Questions & Talking Points
-
-During your interview discussion (Section 10 of the assignment brief), use these concise answers:
-
-### Q1: How does your agent decide that a source is trustworthy?
-> **Answer:** *"We apply an explicit Bayesian-style source precedence hierarchy rather than trusting file size or recency. Living native speaker audio interviews (INT-01 to INT-05) and community linguist field notes (Dictionary B) receive high baseline priors (0.88-0.92). Broad vendor dictionaries (Dictionary A) receive a discounted prior (0.65) because vendor harvesters frequently include archaic forms or poisoned entries. When two sources disagree, empirical oral evidence overrides static glossaries."*
-
-### Q2: How would you detect that the verifier is repeating the translator's mistake?
-> **Answer:** *"First, we enforce cognitive diversity: the verifier does not receive the translator's chain-of-thought, preventing confirmation bias. Second, the verifier runs deterministic code assertions (token whitelisting, SOV syntax parsing, and CPS reading speed) before any LLM is called. Third, we measure agreement rates across diverse test sets—if an LLM verifier approves lines that violate deterministic lexical or syntactic constraints, we flag verifier failure and trigger human escalation."*
-
-### Q3: What changes when a linguist corrects one grammar rule?
-> **Answer:** *"We implement dependency-aware selective invalidation. Each subtitle decision records which rules and evidence IDs it depended on. When a rule is modified, our workflow queries the dependency graph and reruns translation and verification strictly for affected lines (e.g. S014). Unaffected lines remain untouched, preserving execution state and keeping budget consumption well below our 25-call ceiling."*
-
-### Q4: Which decisions should never be automated?
-> **Answer:** *"Three decisions must always remain with human experts:
-> 1. Resolving unresolved sociolinguistic disputes between community elders and external vendors.
-> 2. Introducing novel loanwords or technical neologisms where no cultural precedent exists in the dialect.
-> 3. Final broadcast approval for scenes involving sacred ceremonies, legal terms, or intense emotional conflict."*
-
-### Q5: How would the system work for 5,000 episodes and 40 dialects?
-> **Answer:** *"We would transition our SQLite Evidence Store to a partitioned vector database (e.g. pgvector or Qdrant) with dialect namespaces. Rule dependency graphs would be maintained in an asynchronous task queue (such as Celery or Temporal). Once a dialect's confidence matrix stabilizes across the first 50 episodes, the system shifts into a high-throughput mode where only anomalous or low-confidence lines (>95th percentile CPS or new lexemes) are routed to human linguists, achieving massive cost and latency efficiency."*
-
-### Q6: What did an AI coding assistant suggest that you chose not to accept?
-> **Answer:** *"An AI assistant initially suggested running a single massive prompt that ingested all raw materials and translated the episode in one shot, claiming it would be 'fast and simple'. We rejected that approach because it creates an un-auditable black box, hallucinated plausible-sounding Nadi-9 words when evidence was missing, and could not selectively replan when a single rule changed. Instead, we insisted on an inspectable multi-agent architecture with deterministic verification."*
-
----
-
-## 5. Repository Structure
+## 4. Repository Structure
 
 ```text
 nadi9-agent/
